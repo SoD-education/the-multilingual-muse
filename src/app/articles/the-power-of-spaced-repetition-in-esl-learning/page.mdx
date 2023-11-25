@@ -1,0 +1,69 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import designSystem from './student-studying.jpg'
+import Level from '@/components/Level'
+
+export const article = {
+  author: 'Adam Wathan',
+  date: '2023-11-25',
+  title: 'The Power of Spaced Repetition in ESL Learning',
+  description:
+    'Explore how spaced repetition, an effective memory technique, revolutionises ESL learning by enhancing long-term vocabulary retention and understanding.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+<Level>
+  <div level="A1">Spaced repetition is a way to remember better. It helps you learn languages by reviewing things over time. This method is better than just repeating things many times. You remember things longer.</div>
+  <div level="B1">Spaced repetition is an important method, especially for language learning. By reviewing information at different times, you remember better for longer. It's more effective than just memorising.</div>
+  <div level="C1">Spaced repetition is an essential learning strategy, especially effective in language acquisition. By spacing out the review of information over time, this technique significantly enhances long-term memory recall. It stands out from traditional study methods like rote learning, ensuring that learners actively engage with the material and retain it more effectively.</div>
+</Level>
+
+<Image src={designSystem} alt="Woman smiling and writing in a notebook" />
+
+<Level>
+  <div level="A1">Spaced repetition uses repeating and time gaps. It helps you remember before you forget. This way, you remember things better. It also helps you connect new things with what you already know.</div>
+  <div level="B1">This method mixes repeating and time gaps. You review information just as you start to forget it. This strengthens memory. It also helps connect new information with what you know.</div>
+  <div level="C1">The effectiveness of spaced repetition lies in its unique approach of combining repetitive learning with strategic intervals. This method ensures that information is revisited just when it begins to fade from memory, strengthening the retention process. It also facilitates the integration of new knowledge with what has already been learned, making it easier to recall in the future.</div>
+</Level>
+
+<Level>
+  <div level="A1">Spaced repetition is based on how we forget things over time. It helps you remember by reviewing at the right times. This makes your memory stronger.</div>
+  <div level="B1">Spaced repetition is based on how we forget information over time. It uses this knowledge to schedule reviews at the best times, making memory stronger.</div>
+  <div level="C1">The foundation of spaced repetition is the Ebbinghaus forgetting curve, which illustrates how information is forgotten over time. This learning technique cleverly uses the curve to its advantage by scheduling reviews at intervals that prevent total forgetting, thus reinforcing the memory more strongly each time information is recalled after partial forgetting.</div>
+</Level>
+
+<Level>
+  <div level="A1">Studies say spaced repetition is better than normal learning. It helps your memory and brain work better.</div>
+  <div level="B1">Studies prove that spaced repetition works better than traditional learning. It improves memory and changes the brain for long-term learning.</div>
+  <div level="C1">Research validates the superiority of spaced repetition over conventional learning methods. Studies have shown that increasing repetition intervals optimises memory retention. Spaced repetition not only improves memory but also alters brain connectivity, ensuring that learning is consolidated in long-term memory.</div>
+</Level>
+
+<Level>
+  <div level="A1">It's good for learning new words in English. You can use cards or apps like Anki, Brainscape, and Memrise. They help you remember words better.</div>
+  <div level="B1">For learning English, spaced repetition is great for vocabulary. Tools like flashcards and apps (Anki, Brainscape, Memrise) help organise and review new words systematically.</div>
+  <div level="C1">In the context of ESL learning, spaced repetition is particularly beneficial for vocabulary acquisition. Tools like paper flashcards, and digital applications such as Anki, Brainscape, and Memrise, assist learners in organising and systematically reviewing new words. These methods provide a structured approach to vocabulary learning, aiding in better retention.</div>
+</Level>
+
+<Level>
+  <div level="A1">Spaced repetition is good with language practice. It helps you remember new words. This makes learning English better.</div>
+  <div level="B1">While great for memorisation, spaced repetition should be used with regular language exposure. Understanding language in context is essential. Spaced repetition ensures new vocabulary is remembered.</div>
+  <div level="C1">While spaced repetition excels in memorisation, it should be integrated with comprehensive language exposure. Comprehensible input, which involves understanding language usage in context, is key to language learning. Spaced repetition enhances this by ensuring that new vocabulary is not only learned but also remembered, making it a valuable component of any comprehensive ESL study program.</div>
+</Level>
+
+<Level>
+  <div level="A1">Use spaced repetition regularly. Keep the right balance in your study. Keep going, even if it's hard. Study in a quiet place for the best results.</div>
+  <div level="B1">For best results, be consistent with study intervals. Balance the right amount of recall and errors. Keep going, even when it's hard. Study without distractions for better learning.</div>
+  <div level="C1">For effective implementation of spaced repetition, consistency in intervals and a well-planned study regimen are crucial. Balancing recall success and error rates ensures active engagement in the learning process. Persistence, even through challenging phases, is vital as it strengthens neural pathways. A distraction-free study environment complements the method, maximising learning outcomes.</div>
+</Level>
+
+## External Sources and Further Reading
+
+- [How To Use Spaced Repetition In Your Language Learning](https://www.babbel.com/en/magazine/spaced-repetition-language-learning)
+- [What Is the Ebbinghaus Forgetting Curve?](https://e-student.org/ebbinghaus-forgetting-curve/)
+- [Applying Cognitive Psychology to Enhance Educational Practice](https://bjorklab.psych.ucla.edu/research)
