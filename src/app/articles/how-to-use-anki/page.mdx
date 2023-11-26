@@ -1,0 +1,96 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import designSystem from './anki-website.webp'
+import addCard from './add-note.jpg'
+import makeCard from './make-card.jpg'
+import chooseDeck from './choose-deck.jpg'
+import studyNow from './study-now.jpg'
+import rateCard from './rate-card.jpg'
+import Level from '@/components/Level'
+
+export const article = {
+  author: 'Chuck',
+  date: '2023-11-26',
+  title: 'How to use Anki',
+  description:
+    'Step-by-step instructions for installing Anki and creating cards for spaced repetition.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+<Level>
+  <div level="A1">Anki is a program that makes remembering things easier and quicker than normal studying. It helps you learn more or spend less time studying. Anki uses two main ideas: active recall testing and spaced repetition. Many people don't know these ideas, but they are very helpful.</div>
+  <div level="B1">Anki is a program that streamlines the memorisation process, offering greater efficiency than traditional study methods. It enables users to either drastically cut down their study time or significantly increase the amount of information they learn. The core of Anki lies in two concepts: active recall testing and spaced repetition. Despite their established presence in scientific research, these concepts are still not widely known among learners.</div>
+  <div level="C1">Anki is a program that simplifies the process of memorisation, offering greater efficiency than conventional study methods. This allows users to either significantly reduce study time or considerably increase the volume of information learned. Central to Anki are two concepts: active recall testing and spaced repetition, which, despite their long-standing presence in scientific literature, remain unfamiliar to many learners.</div>
+</Level>
+
+_**Read:** [What is spaced repetition?](./the-power-of-spaced-repetition-in-esl-learning)_
+
+<Image src={designSystem} alt="A screenshot of the Anki website in November 2023" />
+
+<Level>
+  <div level="A1">In Anki, a 'card' is like a paper card on a computer. It has a question and an answer. You can see both the question and answer at the same time. For example, a card might ask 'What is the symbol for oxygen?' and the answer is 'O'. You tell Anki how well you remember the answer. This helps Anki decide when to show the card again.</div>
+  <div level="B1">In Anki, a 'card' is a digital version of a paper flashcard. It shows a question and an answer together. For instance, if you're studying chemistry, a card might ask 'What's the chemical symbol for oxygen?' and show the answer 'O'. After seeing the answer, you tell Anki how easy it was to recall. This helps Anki plan when you should see the card again.</div>
+  <div level="C1">In Anki, a 'card' refers to a digital version of a paper flashcard, featuring a question-and-answer pair. Unlike physical flashcards, the question remains visible when the answer is revealed. For example, in studying basic chemistry, a question like "Q: Chemical symbol for oxygen?" would display "A: O" upon revealing the answer. Users then inform Anki about their recall level, influencing the scheduling of future reviews.</div>
+</Level>
+
+<Level>
+  <div level="A1">Decks in Anki help you sort your study topics, like English or Geography. It's not a good idea to make many small decks like 'my geography book chapter 1' or 'food verbs'. This is because you might start to remember the order of the cards. If you learn the cards in order, you will see similar cards together. This can make it easier to guess the answers. But guessing is not good for really learning. When you really need to remember something, you won't have these hints. Having too many small decks might not help you learn properly.</div>
+  <div level="B1">In Anki, decks are used to organise your learning material into broad areas such as English or Geography. However, creating too many specific decks, like 'my geography book chapter 1' or 'food verbs', is usually not recommended. One main reason is that this can lead to memorising the sequence of cards, especially with older versions of Anki's scheduler that introduce new cards in deck order. Reviewing decks in sequence means you're likely to review similar topics together. This can inadvertently make it easier to guess the answers, leading to less effective memorisation. True recall in practical situations requires remembering information without such clues, which overly detailed decks might not adequately train.</div>
+  <div level="C1">Decks in Anki are designed to categorise content into broad study areas like English or Geography. While it might seem appealing to create many small decks for detailed organisation, such as "my geography book chapter 1" or "food verbs," this approach is generally discouraged. One key reason is that it can lead to recognising the order of cards, especially with older scheduler versions where new cards are introduced in the order of the decks. If you sequentially review each deck, you'll likely encounter related content together, like all "chapter 1" or "food verb" cards. This contextual cue can make it easier to guess answers, resulting in weaker memory formation. Effective recall in real-world situations demands retrieving information without such contextual hints, a skill that overly segmented decks might not sufficiently develop.</div>
+</Level>
+
+[You can download Anki here.](https://apps.ankiweb.net/)
+
+**Please note:** Windows, Mac, Linux and [AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki&pli=1) are free. [AnkiMobile](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) on iOS is <b>not free</b>.
+
+<h2>How to: Make a New Card</h2>
+
+1. Click on the **Add** button.
+
+<Image src={addCard} alt="Screenshot of the main Anki window with an arrow pointing to the Add button." />
+
+2. Type in a question in the **Front** box.
+3. Type the answer in the **Back** box.
+4. Click the **Add** button.
+
+<Image src={makeCard} alt="Screenshot of the Add window with a question in the Front field and an answer in the Back field." />
+
+5. Repeat _steps 2-4_ for all your cards.
+6. Click **Close** when you are finished making cards.
+
+_If you close the **Add** card window, and you want to add more cards later, repeat_ Step 1 _above._
+
+**Remember:** It is better to put all of your English learning cards into one deck, and not make many decks.
+
+<h2>How to: Study with your cards</h2>
+
+1. Click on the deck name (it might be **default**).
+
+<Image src={chooseDeck} alt="Screenshot of the main window with an arrow pointing to a deck name." />
+
+2. Click on the **Study now** button.
+
+<Image src={studyNow} alt="Screenshot of the deck window with an arrow pointing to the Study now button." />
+
+3. Read the question and say or think of the answer.
+
+4. Press the **Show Answer** button.
+
+5. Click one of the difficulty buttons. If it was an easy question, click the **Easy** button. If the question was really difficult, click the **Again** button.
+
+<Image src={rateCard} alt="Screenshot of the card window with arrows pointing to the four difficulty buttons." />
+
+6. Repeat _Steps 3-5_ for all of your cards.
+
+## External Sources and Further Reading
+
+- [The Anki website](https://apps.ankiweb.net/)
+- Anki for iOS: [AnkiMobile Flashcards](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387)
+- Anki for Android: [AnkiDroid Flashcards](https://play.google.com/store/apps/details?id=com.ichi2.anki)
+- [How To Use Spaced Repetition In Your Language Learning](https://www.babbel.com/en/magazine/spaced-repetition-language-learning)
