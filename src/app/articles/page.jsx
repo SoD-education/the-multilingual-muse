@@ -1,4 +1,5 @@
 import { Card } from '@/components/Card'
+import Level from '@/components/Level'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
@@ -44,7 +45,14 @@ export default async function ArticlesIndex() {
   return (
     <SimpleLayout
       title="Let's talk about learning English."
-      intro="Articles for students and teachers in the context of ESL/EFL/EAL, collected in chronological order."
+      // intro="Articles for students and teachers in the context of ESL/EFL/EAL, collected in chronological order."
+      intro={
+        <Level>
+          <p level="A1">Here you can read about learning English. This is for students and teachers.</p>
+          <p level="B1">Below is a collection of ESL articles for both students and teachers, with the newest articles shown first.</p>
+          <p level="C1">Below is a collection of ESL articles for both students and teachers, presented in chronological order.</p>
+        </Level>
+      }
     >
       <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
         <div className="flex max-w-3xl flex-col space-y-16">

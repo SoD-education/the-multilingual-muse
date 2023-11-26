@@ -1,6 +1,4 @@
-import clsx from 'clsx'
 import Image from 'next/image'
-import Link from 'next/link'
 
 import { Container } from '@/components/Container'
 import portraitImage from '@/images/portrait.jpg'
