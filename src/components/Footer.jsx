@@ -26,7 +26,7 @@ export function Footer() {
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
                 &copy; {new Date().getFullYear()} Sound of Dialup. All rights
-                reserved.
+                reserved. <Link href='/teachers'><span className="pl-6">&#120703;</span></Link>
               </p>
             </div>
           </ContainerInner>

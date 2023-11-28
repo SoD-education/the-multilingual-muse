@@ -1,0 +1,151 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import heroImage from './woman-and-whiteboard-writing.jpg'
+import wordWallImage from './word_wall.jpg'
+import Level from '@/components/Level'
+
+export const article = {
+  author: 'Chuck',
+  date: '2023-11-27',
+  title: 'How to Learn English Faster',
+  description:
+    'As an ESL student, mastering English can be a challenging yet rewarding journey. Here are 8 popular and effective strategies to enhance your language learning experience.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+<Level>
+  <div level="A1">Learning English can be hard but good. Here are 8 great ways to make learning English better.</div>
+  <div level="B1">As an ESL student, becoming fluent in English is a challenging but fulfilling endeavour. Below are 8 popular and effective methods to improve your language learning experience.</div>
+  <div level="C1">As an ESL student, mastering English can be a challenging yet rewarding journey. Here are 8 popular and effective strategies to enhance your language learning experience.</div>
+</Level>
+
+<Image src={heroImage} alt="Woman smiling and writing in a notebook" />
+
+## 1. Label Objects in Your Home
+
+<Level>
+  <div level="A1"><i>Put English names for things at home.</i></div>
+  <div level="B1"><i>On sticky notes, write the English name for various objects around your home. Attach these notes to the objects themselves.</i></div>
+  <div level="C1"><i>Stick labels in English on items around your home.</i></div>
+</Level>
+
+<Level>
+  <div level="A1">Write the English name for something in your home (e.g. "television"). Write it on a piece of paper and put it on the object. When you see the object, read the word.</div>
+  <div level="B1">Placing English labels on everyday items enhances your language environment. This constant exposure aids in memorising words better.</div>
+  <div level="C1">Placing English labels on everyday items in your home creates a language-rich environment. This method uses the principle of constant exposure, which helps in better retention of words. Seeing and using these words daily in their context reinforces your memory and understanding.</div>
+</Level>
+
+_**Download:** <a href='/object_labels.pdf' download>Label Template</a>_
+
+## 2. Use Anki Every Day
+
+<Level>
+  <div level="A1"><i>Practise your Anki flashcards every day.</i></div>
+  <div level="B1"><i>Review your Anki flashcards daily. Spaced repetition is a fantastic way to learn efficiently.</i></div>
+  <div level="C1"><i>Review your Anki flashcards on a daily basis and make the most out of spaced repetition.</i></div>
+</Level>
+
+_**Read:** [How to use Anki?](./how-to-use-anki)_
+
+<Level>
+  <div level="A1">Use spaced repetition regularly. Keep the right balance in your study. Keep going, even if it's hard. Study in a quiet place for the best results.</div>
+  <div level="B1">For best results, be consistent with study intervals. Balance the right amount of recall and errors. Keep going, even when it's hard. Study without distractions for better learning.</div>
+  <div level="C1">For effective implementation of spaced repetition, consistency in intervals and a well-planned study regimen are crucial. Balancing recall success and error rates ensures active engagement in the learning process. Persistence, even through challenging phases, is vital as it strengthens neural pathways. A distraction-free study environment complements the method, maximising learning outcomes.</div>
+</Level>
+
+## 3. Create a Word Wall
+
+<Level>
+  <div level="A1"><i>Write words on pieces of paper. Put the pieces of paper on a special wall at home.</i></div>
+  <div level="B1"><i>Write words on pieces of paper or post-it notes, and attach them to a dedicated wall at home.</i></div>
+  <div level="C1"><i>Dedicate a space at home for your personal word wall.</i></div>
+</Level>
+
+<Image src={wordWallImage} alt="Word Wall from edutopia.org" />
+_Photo Credit: [edutopia.org](https://www.edutopia.org/article/building-better-word-wall)_
+
+<Level>
+  <div level="A1">A wall with new English words helps you remember. You can see and sort the words.</div>
+  <div level="B1">A personal word wall is a visual tool for remembering and organizing new vocabulary. It's based on the idea that visual aids improve learning.</div>
+  <div level="C1">Transform your learning space with word walls. These visually engaging tools display new vocabulary along with images, aiding in retention through repeated exposure. This method integrates learning seamlessly into your everyday environment.</div>
+</Level>
+
+## 4. Use Pop Culture
+
+<Level>
+  <div level="A1"><i>Learn new words from your favourite English songs, movies, or TV shows.</i></div>
+  <div level="B1"><i>Use your favourite English songs, films, or TV programmes to find new vocabulary.</i></div>
+  <div level="C1"><i>Use your favorite English songs, movies, or TV shows to discover new words.</i></div>
+</Level>
+
+<Level>
+  <div level="A1">Watching films and listening to songs in English is fun. It helps you learn everyday English and new phrases.</div>
+  <div level="B1">Engaging with English media like songs and movies helps in learning casual language and idioms. This approach is enjoyable and memorable, in line with Krashen's theory of language input.</div>
+  <div level="C1">Engaging with English media (like songs or movies) is an enjoyable way to learn colloquial language and idiomatic expressions. This method taps into the emotional aspect of learning, making it more memorable. It's a practical application of Krashen's Input Hypothesis, which emphasises the importance of comprehensible input in language acquisition.</div>
+</Level>
+
+## 5. Keep a Weekly Word Chart
+
+<Level>
+  <div level="A1"><i>Add new English words to a chart or diary every week.</i></div>
+  <div level="B1"><i>Keep a record where you add new words each week.</i></div>
+  <div level="C1"><i>Keep a chart or diary where you add new words every week.</i></div>
+</Level>
+
+<Level>
+  <div level="A1">Write new words and their meanings every week. Use them in sentences. This helps you learn better.</div>
+  <div level="B1">Keeping a chart of new words, their meanings, and usage encourages active learning. Writing and contextualizing words is more effective than just reading or listening.</div>
+  <div level="C1">Maintaining a chart encourages active engagement with new vocabulary. By writing words, their meanings, and using them in context, you're employing a multi-sensory approach to learning, which is proven to be more effective than passive reading or listening.</div>
+</Level>
+
+## 6. Use Context Clues
+
+<Level>
+  <div level="A1"><i>When you read in English, try to guess what new words mean.</i></div>
+  <div level="B1"><i>XXEmploy context clues to deduce meanings of unknown words in English texts.X</i></div>
+  <div level="C1"><i>While reading anything in English, use context clues to guess the meanings of unfamiliar words.</i></div>
+</Level>
+
+<Level>
+  <div level="A1">Try to guess the meanings of new words from what you read. This is good for thinking and understanding.</div>
+  <div level="B1">Using context to understand new words develops critical thinking and comprehension. This method aligns with the idea that knowledge is built through experiences.</div>
+  <div level="C1">Using context clues to infer meanings helps in developing critical thinking and comprehension skills. This active engagement with text is supported by Constructivist Learning Theory, suggesting that learners construct knowledge through experiences.</div>
+</Level>
+
+## 7. Be an Actor!
+
+<Level>
+  <div level="A1"><i>Make or play games where you act out words or make up stories.</i></div>
+  <div level="B1"><i>Create or participate in word games that involve performing words or creating narratives.</i></div>
+  <div level="C1"><i>Create or play word games that involve acting out words or crafting stories.</i></div>
+</Level>
+
+<Level>
+  <div level="A1">Doing things and moving around with words helps you remember them.</div>
+  <div level="B1">Learning through physical activity, like games involving words, enhances memory by engaging more brain areas.</div>
+  <div level="C1">Kinaesthetic learning, or learning by doing, is very effective, especially in language learning. Combining physical movement with vocabulary learning enhances memory and recall, as it involves more brain regions than just memorizing.</div>
+</Level>
+
+## 8. Be an Artist!
+
+<Level>
+  <div level="A1"><i>Draw or make things about new words you are learning.</i></div>
+  <div level="B1"><i>Draw, paint, or craft items related to new vocabulary you're learning.</i></div>
+  <div level="C1"><i>Draw, paint, or craft something related to new words you're learning.</i></div>
+</Level>
+
+<Level>
+  <div level="A1">Drawing or making things for new words is good. It helps you remember words in different ways.</div>
+  <div level="B1">Creative exercises related to new words stimulate various brain parts. This approach improves retention and recall of vocabulary.</div>
+  <div level="C1">Creative tasks like drawing or crafting related to new words stimulate different parts of the brain. This multimodal approach enhances the learning experience and aids in better retention and recall of vocabulary.</div>
+</Level>
+
+## External Sources and Further Reading
+
+- [How To Use Spaced Repetition In Your Language Learning](https://www.babbel.com/en/magazine/spaced-repetition-language-learning)
